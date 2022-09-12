@@ -1,19 +1,21 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
- * main-lowercase alphabets
+ * main - Entry point
  *
- * Return: Always (Sucess)
+ * Return: 0
  */
 int main(void)
 {
-	char c;
+	char a = 'a';
 
-	for (c='a'; c <= 'z'; c++)
-		putchar(c);
+	while (a <= 'z')
+	{
+		putchar(a);
+		a++;
+	}
 
-	putchar ('\n');
+	putchar('\n');
 	return (0);
 }
-
-
